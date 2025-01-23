@@ -5,7 +5,7 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:DnD_calc"
         mc:Ignorable="d" WindowStartupLocation="CenterScreen"
-        Title="MainWindow" Height="650" Width="700">
+        Title="MainWindow" Height="650" Width="800">
     <Grid>
         <Grid.RowDefinitions>
             <RowDefinition Height="70"></RowDefinition>
@@ -14,8 +14,8 @@
 
         <Grid.ColumnDefinitions>
             <ColumnDefinition></ColumnDefinition>
-            <ColumnDefinition Width="200"></ColumnDefinition>
-            <ColumnDefinition Width="200"></ColumnDefinition>
+            <ColumnDefinition Width="250"></ColumnDefinition>
+            <ColumnDefinition Width="250"></ColumnDefinition>
             <ColumnDefinition></ColumnDefinition>
         </Grid.ColumnDefinitions>
         <StackPanel Grid.Row="0" Grid.Column="1" Grid.ColumnSpan="2"
@@ -33,9 +33,17 @@
                 HorizontalAlignment="Center" VerticalAlignment="Center">
                 <ListView.ItemTemplate>
                     <DataTemplate>
-                        <CheckBox x:Name="Positive_Check" Checked="Positive_Check_Checked"
+                        <Grid>
+                            <Grid.ColumnDefinitions>
+                                <ColumnDefinition Width="*"></ColumnDefinition>
+                                <ColumnDefinition Width="25"></ColumnDefinition>
+                            </Grid.ColumnDefinitions>
+                        <CheckBox x:Name="Positive_Check" Checked="Positive_Check_Checked" Grid.Column="0"
                             Content="{Binding Char_Pos, StringFormat={}{0}}"   Unchecked="Positive_Check_Unchecked"
                                  VerticalAlignment="Center" HorizontalAlignment="Center"></CheckBox>
+                            <TextBlock Grid.Column="1" HorizontalAlignment="Right"
+                                Text="{Binding Point_Pos, StringFormat={}-{0}}" Foreground="Crimson"></TextBlock>
+                        </Grid>
                     </DataTemplate>
                 </ListView.ItemTemplate>
             </ListView>
@@ -49,18 +57,26 @@
     HorizontalAlignment="Center" VerticalAlignment="Center">
                 <ListView.ItemTemplate>
                     <DataTemplate>
-                        <CheckBox x:Name="Niggative_Check" Checked="Niggative_Check_Checked"
+                        <Grid>
+                            <Grid.ColumnDefinitions>
+                                <ColumnDefinition Width="*"></ColumnDefinition>
+                                <ColumnDefinition Width="25"></ColumnDefinition>
+                            </Grid.ColumnDefinitions>
+                            <CheckBox x:Name="Niggative_Check" Checked="Niggative_Check_Checked" Grid.Column="0"
                             Content="{Binding Char_Nigg, StringFormat={}{0}}" Unchecked="Niggative_Check_Unchecked"
                  VerticalAlignment="Center" HorizontalAlignment="Center"></CheckBox>
+                            <TextBlock Grid.Column="1" HorizontalAlignment="Right"
+     Text="{Binding Point_Nigg, StringFormat={}+{0}}" Foreground="Green"></TextBlock>
+                        </Grid>
                     </DataTemplate>
                 </ListView.ItemTemplate>
             </ListView>
         </StackPanel>
         <StackPanel Grid.Row="1" Grid.Column="3" VerticalAlignment="Top" HorizontalAlignment="Left">
             
-        <TextBlock x:Name="GoodSkillList" Text="Положительные" Foreground="Green"
+        <TextBlock x:Name="GoodSkillList" Foreground="Green"
                  Height="Auto"></TextBlock>
-        <TextBlock x:Name="BadSkillList" Text="Отрицательные" Foreground="Crimson"
+        <TextBlock x:Name="BadSkillList" Foreground="Crimson"
                  Height="Auto"></TextBlock>
             
         </StackPanel>
