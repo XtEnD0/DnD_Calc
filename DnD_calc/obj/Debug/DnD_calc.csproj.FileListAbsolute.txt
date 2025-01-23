@@ -35,3 +35,25 @@ C:\Users\Well Max\Desktop\DnD_Calc\DnD_calc\obj\Debug\DnD_calc.csproj.CoreCompil
 C:\Users\Well Max\Desktop\DnD_Calc\DnD_calc\obj\Debug\DnD_calc.csproj.Up2Date
 C:\Users\Well Max\Desktop\DnD_Calc\DnD_calc\obj\Debug\DnD_calc.exe
 C:\Users\Well Max\Desktop\DnD_Calc\DnD_calc\obj\Debug\DnD_calc.pdb
+H:\PROGRAMMING\DnD_Calc\DnD_calc\bin\Debug\DnD_calc.exe.config
+H:\PROGRAMMING\DnD_Calc\DnD_calc\bin\Debug\DnD_calc.exe
+H:\PROGRAMMING\DnD_Calc\DnD_calc\bin\Debug\DnD_calc.pdb
+H:\PROGRAMMING\DnD_Calc\DnD_calc\bin\Debug\EntityFramework.dll
+H:\PROGRAMMING\DnD_Calc\DnD_calc\bin\Debug\EntityFramework.SqlServer.dll
+H:\PROGRAMMING\DnD_Calc\DnD_calc\bin\Debug\EntityFramework.xml
+H:\PROGRAMMING\DnD_Calc\DnD_calc\bin\Debug\EntityFramework.SqlServer.xml
+H:\PROGRAMMING\DnD_Calc\DnD_calc\bin\Debug\ru\EntityFramework.resources.dll
+H:\PROGRAMMING\DnD_Calc\DnD_calc\obj\Debug\DnD_calc.csproj.AssemblyReference.cache
+H:\PROGRAMMING\DnD_Calc\DnD_calc\obj\Debug\MainWindow.g.cs
+H:\PROGRAMMING\DnD_Calc\DnD_calc\obj\Debug\App.g.cs
+H:\PROGRAMMING\DnD_Calc\DnD_calc\obj\Debug\DnD_calc_Content.g.cs
+H:\PROGRAMMING\DnD_Calc\DnD_calc\obj\Debug\DnD_calc_MarkupCompile.cache
+H:\PROGRAMMING\DnD_Calc\DnD_calc\obj\Debug\DnD_calc_MarkupCompile.lref
+H:\PROGRAMMING\DnD_Calc\DnD_calc\obj\Debug\MainWindow.baml
+H:\PROGRAMMING\DnD_Calc\DnD_calc\obj\Debug\DnD_calc.g.resources
+H:\PROGRAMMING\DnD_Calc\DnD_calc\obj\Debug\DnD_calc.Properties.Resources.resources
+H:\PROGRAMMING\DnD_Calc\DnD_calc\obj\Debug\DnD_calc.csproj.GenerateResource.cache
+H:\PROGRAMMING\DnD_Calc\DnD_calc\obj\Debug\DnD_calc.csproj.CoreCompileInputs.cache
+H:\PROGRAMMING\DnD_Calc\DnD_calc\obj\Debug\DnD_calc.csproj.CopyComplete
+H:\PROGRAMMING\DnD_Calc\DnD_calc\obj\Debug\DnD_calc.exe
+H:\PROGRAMMING\DnD_Calc\DnD_calc\obj\Debug\DnD_calc.pdb

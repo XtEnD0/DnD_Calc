@@ -96,5 +96,32 @@ namespace DnD_calc
                 UpdateSkillLists();
             }
         }
+
+        private void Positive_Check_MouseEnter(object sender, MouseEventArgs e)
+        {
+            if ((sender as CheckBox)?.DataContext is Data.Positive selectedItem)
+            {
+                DescriptionBox.Text = selectedItem.Char_Pos;
+            }
+        }
+
+        private void Niggative_Check_MouseEnter(object sender, MouseEventArgs e)
+        {
+            if ((sender as CheckBox)?.DataContext is Data.Niggative selectedItem)
+            {
+                DescriptionBox.Text = selectedItem.Char_Nigg;
+            }
+        }
     }
 }
+
+//private static DnD_DBEntities _context;
+
+//public static DnD_DBEntities GetContext()
+//{
+//    if (_context == null)
+//    {
+//        _context = new DnD_DBEntities();
+//    }
+//    return _context;
+//}

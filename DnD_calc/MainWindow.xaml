@@ -18,6 +18,10 @@
             <ColumnDefinition Width="250"></ColumnDefinition>
             <ColumnDefinition></ColumnDefinition>
         </Grid.ColumnDefinitions>
+
+        <TextBlock x:Name="DescriptionBox" Grid.Row="1" Grid.Column="0" Text="Здесь будет описание"
+                   VerticalAlignment="Top" HorizontalAlignment="Center" TextWrapping="Wrap"></TextBlock>
+        
         <StackPanel Grid.Row="0" Grid.Column="1" Grid.ColumnSpan="2"
                     VerticalAlignment="Center" HorizontalAlignment="Center">
         <Label Content="ОЧКИ" ></Label>
@@ -28,20 +32,20 @@
         </StackPanel>
         <StackPanel Grid.Row="1" Grid.Column="1"
                     VerticalAlignment="Top" HorizontalAlignment="Center">
-            <TextBlock Text="ПОЛОЖИТЕЛЬНЫЕ" Foreground="Green"></TextBlock>
-            <ListView x:Name="PositiveListView"
+            <TextBlock Text="ПОЛОЖИТЕЛЬНЫЕ" Foreground="Green" HorizontalAlignment="Center"></TextBlock>
+            <ListView x:Name="PositiveListView" Width="230"
                 HorizontalAlignment="Center" VerticalAlignment="Center">
                 <ListView.ItemTemplate>
                     <DataTemplate>
                         <Grid>
                             <Grid.ColumnDefinitions>
+                                <ColumnDefinition Width="190"></ColumnDefinition>
                                 <ColumnDefinition Width="*"></ColumnDefinition>
-                                <ColumnDefinition Width="25"></ColumnDefinition>
                             </Grid.ColumnDefinitions>
-                        <CheckBox x:Name="Positive_Check" Checked="Positive_Check_Checked" Grid.Column="0"
+                        <CheckBox x:Name="Positive_Check" Checked="Positive_Check_Checked" Grid.Column="0" MouseEnter="Positive_Check_MouseEnter"
                             Content="{Binding Char_Pos, StringFormat={}{0}}"   Unchecked="Positive_Check_Unchecked"
-                                 VerticalAlignment="Center" HorizontalAlignment="Center"></CheckBox>
-                            <TextBlock Grid.Column="1" HorizontalAlignment="Right"
+                                 VerticalAlignment="Center" HorizontalAlignment="Left"></CheckBox>
+                            <TextBlock Grid.Column="1" HorizontalAlignment="Center"
                                 Text="{Binding Point_Pos, StringFormat={}-{0}}" Foreground="Crimson"></TextBlock>
                         </Grid>
                     </DataTemplate>
@@ -52,20 +56,21 @@
 
         <StackPanel Grid.Row="1" Grid.Column="2"
                     VerticalAlignment="Top" HorizontalAlignment="Center">
-            <TextBlock Text="ОТРИЦАТЕЛЬНЫЕ" Foreground="crimson"></TextBlock>
-            <ListView x:Name="NiggativeListView"
+            <TextBlock Text="ОТРИЦАТЕЛЬНЫЕ" Foreground="crimson" HorizontalAlignment="Center"></TextBlock>
+            <ListView x:Name="NiggativeListView" Width="230"
     HorizontalAlignment="Center" VerticalAlignment="Center">
                 <ListView.ItemTemplate>
                     <DataTemplate>
                         <Grid>
                             <Grid.ColumnDefinitions>
+                                <ColumnDefinition Width="190"></ColumnDefinition>
                                 <ColumnDefinition Width="*"></ColumnDefinition>
-                                <ColumnDefinition Width="25"></ColumnDefinition>
                             </Grid.ColumnDefinitions>
                             <CheckBox x:Name="Niggative_Check" Checked="Niggative_Check_Checked" Grid.Column="0"
+                                      MouseEnter="Niggative_Check_MouseEnter"
                             Content="{Binding Char_Nigg, StringFormat={}{0}}" Unchecked="Niggative_Check_Unchecked"
-                 VerticalAlignment="Center" HorizontalAlignment="Center"></CheckBox>
-                            <TextBlock Grid.Column="1" HorizontalAlignment="Right"
+                 VerticalAlignment="Center" HorizontalAlignment="Left"></CheckBox>
+                            <TextBlock Grid.Column="1" HorizontalAlignment="Center"
      Text="{Binding Point_Nigg, StringFormat={}+{0}}" Foreground="Green"></TextBlock>
                         </Grid>
                     </DataTemplate>

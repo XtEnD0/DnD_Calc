@@ -19,17 +19,18 @@ namespace DnD_calc.Data
             : base("name=DnD_DBEntities")
         {
         }
+
         private static DnD_DBEntities _context;
 
         public static DnD_DBEntities GetContext()
         {
-            if(_context == null)
+            if (_context == null)
             {
                 _context = new DnD_DBEntities();
             }
             return _context;
         }
-    
+
         protected override void OnModelCreating(DbModelBuilder modelBuilder)
         {
             throw new UnintentionalCodeFirstException();
