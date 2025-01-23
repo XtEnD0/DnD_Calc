@@ -13,3 +13,25 @@ H:\LABABA\DnD_calc\DnD_calc\obj\Debug\DnD_calc.csproj.GenerateResource.cache
 H:\LABABA\DnD_calc\DnD_calc\obj\Debug\DnD_calc.csproj.CoreCompileInputs.cache
 H:\LABABA\DnD_calc\DnD_calc\obj\Debug\DnD_calc.exe
 H:\LABABA\DnD_calc\DnD_calc\obj\Debug\DnD_calc.pdb
+C:\Users\Well Max\Desktop\DnD_Calc\DnD_calc\bin\Debug\DnD_calc.exe.config
+C:\Users\Well Max\Desktop\DnD_Calc\DnD_calc\bin\Debug\DnD_calc.exe
+C:\Users\Well Max\Desktop\DnD_Calc\DnD_calc\bin\Debug\DnD_calc.pdb
+C:\Users\Well Max\Desktop\DnD_Calc\DnD_calc\bin\Debug\EntityFramework.dll
+C:\Users\Well Max\Desktop\DnD_Calc\DnD_calc\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\Well Max\Desktop\DnD_Calc\DnD_calc\bin\Debug\EntityFramework.xml
+C:\Users\Well Max\Desktop\DnD_Calc\DnD_calc\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\Well Max\Desktop\DnD_Calc\DnD_calc\bin\Debug\ru\EntityFramework.resources.dll
+C:\Users\Well Max\Desktop\DnD_Calc\DnD_calc\obj\Debug\DnD_calc.csproj.AssemblyReference.cache
+C:\Users\Well Max\Desktop\DnD_Calc\DnD_calc\obj\Debug\MainWindow.g.cs
+C:\Users\Well Max\Desktop\DnD_Calc\DnD_calc\obj\Debug\App.g.cs
+C:\Users\Well Max\Desktop\DnD_Calc\DnD_calc\obj\Debug\DnD_calc_Content.g.cs
+C:\Users\Well Max\Desktop\DnD_Calc\DnD_calc\obj\Debug\DnD_calc_MarkupCompile.cache
+C:\Users\Well Max\Desktop\DnD_Calc\DnD_calc\obj\Debug\DnD_calc_MarkupCompile.lref
+C:\Users\Well Max\Desktop\DnD_Calc\DnD_calc\obj\Debug\MainWindow.baml
+C:\Users\Well Max\Desktop\DnD_Calc\DnD_calc\obj\Debug\DnD_calc.g.resources
+C:\Users\Well Max\Desktop\DnD_Calc\DnD_calc\obj\Debug\DnD_calc.Properties.Resources.resources
+C:\Users\Well Max\Desktop\DnD_Calc\DnD_calc\obj\Debug\DnD_calc.csproj.GenerateResource.cache
+C:\Users\Well Max\Desktop\DnD_Calc\DnD_calc\obj\Debug\DnD_calc.csproj.CoreCompileInputs.cache
+C:\Users\Well Max\Desktop\DnD_Calc\DnD_calc\obj\Debug\DnD_calc.csproj.Up2Date
+C:\Users\Well Max\Desktop\DnD_Calc\DnD_calc\obj\Debug\DnD_calc.exe
+C:\Users\Well Max\Desktop\DnD_Calc\DnD_calc\obj\Debug\DnD_calc.pdb

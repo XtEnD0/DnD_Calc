@@ -3,8 +3,20 @@
   "WorkspaceRootPath": "C:\\Users\\Well Max\\Desktop\\DnD_Calc\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{8A18F66A-67CB-4201-A693-9E77F875513F}|DnD_calc\\DnD_calc.csproj|C:\\Users\\Well Max\\Desktop\\DnD_Calc\\dnd_calc\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8A18F66A-67CB-4201-A693-9E77F875513F}|DnD_calc\\DnD_calc.csproj|solutionrelative:dnd_calc\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8A18F66A-67CB-4201-A693-9E77F875513F}|DnD_calc\\DnD_calc.csproj|C:\\Users\\Well Max\\Desktop\\DnD_Calc\\dnd_calc\\data\\model1.context.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8A18F66A-67CB-4201-A693-9E77F875513F}|DnD_calc\\DnD_calc.csproj|solutionrelative:dnd_calc\\data\\model1.context.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{8A18F66A-67CB-4201-A693-9E77F875513F}|DnD_calc\\DnD_calc.csproj|c:\\users\\well max\\desktop\\dnd_calc\\dnd_calc\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
       "RelativeMoniker": "D:0:0:{8A18F66A-67CB-4201-A693-9E77F875513F}|DnD_calc\\DnD_calc.csproj|solutionrelative:dnd_calc\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8A18F66A-67CB-4201-A693-9E77F875513F}|DnD_calc\\DnD_calc.csproj|C:\\Users\\Well Max\\Desktop\\DnD_Calc\\dnd_calc\\data\\model1.edmx||{C99AEA30-8E36-4515-B76F-496F5A48A6AA}|",
+      "RelativeMoniker": "D:0:0:{8A18F66A-67CB-4201-A693-9E77F875513F}|DnD_calc\\DnD_calc.csproj|solutionrelative:dnd_calc\\data\\model1.edmx||{C99AEA30-8E36-4515-B76F-496F5A48A6AA}|"
     }
   ],
   "DocumentGroupContainers": [
@@ -14,11 +26,23 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 2,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 3,
+              "Title": "Model1.edmx [Diagram1]",
+              "DocumentMoniker": "C:\\Users\\Well Max\\Desktop\\DnD_Calc\\DnD_calc\\Data\\Model1.edmx",
+              "RelativeDocumentMoniker": "DnD_calc\\Data\\Model1.edmx",
+              "ToolTip": "C:\\Users\\Well Max\\Desktop\\DnD_Calc\\DnD_calc\\Data\\Model1.edmx [Diagram1]",
+              "RelativeToolTip": "DnD_calc\\Data\\Model1.edmx [Diagram1]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001116|",
+              "WhenOpened": "2025-01-23T09:24:50.414Z",
+              "EditorCaption": " [Diagram1]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
               "Title": "MainWindow.xaml",
               "DocumentMoniker": "C:\\Users\\Well Max\\Desktop\\DnD_Calc\\DnD_calc\\MainWindow.xaml",
               "RelativeDocumentMoniker": "DnD_calc\\MainWindow.xaml",
@@ -26,6 +50,32 @@
               "RelativeToolTip": "DnD_calc\\MainWindow.xaml",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
               "WhenOpened": "2025-01-23T09:03:18.025Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "MainWindow.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\Well Max\\Desktop\\DnD_Calc\\DnD_calc\\MainWindow.xaml.cs",
+              "RelativeDocumentMoniker": "DnD_calc\\MainWindow.xaml.cs",
+              "ToolTip": "C:\\Users\\Well Max\\Desktop\\DnD_Calc\\DnD_calc\\MainWindow.xaml.cs",
+              "RelativeToolTip": "DnD_calc\\MainWindow.xaml.cs",
+              "ViewState": "AgIAABQAAAAAAAAAAAAowD8AAAA2AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-23T09:31:08.359Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Model1.Context.cs",
+              "DocumentMoniker": "C:\\Users\\Well Max\\Desktop\\DnD_Calc\\DnD_calc\\Data\\Model1.Context.cs",
+              "RelativeDocumentMoniker": "DnD_calc\\Data\\Model1.Context.cs",
+              "ToolTip": "C:\\Users\\Well Max\\Desktop\\DnD_Calc\\DnD_calc\\Data\\Model1.Context.cs",
+              "RelativeToolTip": "DnD_calc\\Data\\Model1.Context.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAABcAAAAxAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-23T09:26:07.711Z",
               "EditorCaption": ""
             }
           ]

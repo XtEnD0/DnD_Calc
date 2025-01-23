@@ -21,7 +21,7 @@
         <StackPanel Grid.Row="0" Grid.Column="1" Grid.ColumnSpan="2"
                     VerticalAlignment="Center" HorizontalAlignment="Center">
         <Label Content="ОЧКИ" ></Label>
-        <TextBox Text="0" Width="40" Height="25" IsEnabled="False"
+        <TextBox Text="0" Width="40" Height="25" IsEnabled="False" x:Name="PointScore"
                  HorizontalContentAlignment="Center" VerticalContentAlignment="Center"
             ></TextBox>
             
@@ -29,12 +29,32 @@
         <StackPanel Grid.Row="1" Grid.Column="1"
                     VerticalAlignment="Top" HorizontalAlignment="Center">
             <TextBlock Text="ПОЛОЖИТЕЛЬНЫЕ" Foreground="Green"></TextBlock>
+            <ListView x:Name="PositiveListView"
+                HorizontalAlignment="Center" VerticalAlignment="Center">
+                <ListView.ItemTemplate>
+                    <DataTemplate>
+                        <CheckBox x:Name="Positive_Check" Checked="Positive_Check_Checked"
+                            Content="{Binding Char_Pos, StringFormat={}{0}}"   Unchecked="Positive_Check_Unchecked"
+                                 VerticalAlignment="Center" HorizontalAlignment="Center"></CheckBox>
+                    </DataTemplate>
+                </ListView.ItemTemplate>
+            </ListView>
         </StackPanel>
 
 
         <StackPanel Grid.Row="1" Grid.Column="2"
                     VerticalAlignment="Top" HorizontalAlignment="Center">
             <TextBlock Text="ОТРИЦАТЕЛЬНЫЕ" Foreground="crimson"></TextBlock>
+            <ListView x:Name="NiggativeListView"
+    HorizontalAlignment="Center" VerticalAlignment="Center">
+                <ListView.ItemTemplate>
+                    <DataTemplate>
+                        <CheckBox x:Name="Niggative_Check" Checked="Niggative_Check_Checked"
+                            Content="{Binding Char_Nigg, StringFormat={}{0}}" Unchecked="Niggative_Check_Unchecked"
+                 VerticalAlignment="Center" HorizontalAlignment="Center"></CheckBox>
+                    </DataTemplate>
+                </ListView.ItemTemplate>
+            </ListView>
         </StackPanel>
         <StackPanel Grid.Row="1" Grid.Column="3" VerticalAlignment="Top" HorizontalAlignment="Left">
             

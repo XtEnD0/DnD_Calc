@@ -20,9 +20,81 @@ namespace DnD_calc
     /// </summary>
     public partial class MainWindow : Window
     {
+        StringBuilder PositiveSkillsBuilder = new StringBuilder();
+        StringBuilder NiggativeSkillsBuilder = new StringBuilder();
         public MainWindow()
         {
             InitializeComponent();
+            PositiveListView.ItemsSource = Data.DnD_DBEntities.GetContext().Positive.ToList();
+            NiggativeListView.ItemsSource = Data.DnD_DBEntities.GetContext().Niggative.ToList();
+        }
+
+        private void Positive_Check_Checked(object sender, RoutedEventArgs e)
+        {
+            if ((sender as CheckBox)?.DataContext is Data.Positive selectedItem)
+            {
+                int score = Int32.Parse(PointScore.Text);
+                score = score - selectedItem.Point_Pos;
+                PointScore.Text = score.ToString();
+
+                PositiveSkillsBuilder.AppendLine($"{selectedItem.Char_Pos}");
+                UpdateSkillLists();
+            }
+        }
+
+        private void Niggative_Check_Checked(object sender, RoutedEventArgs e)
+        {
+            if ((sender as CheckBox)?.DataContext is Data.Niggative selectedItem)
+            {
+                int score = Int32.Parse(PointScore.Text);
+                score = score + selectedItem.Point_Nigg;
+                PointScore.Text = score.ToString();
+
+                NiggativeSkillsBuilder.AppendLine($"{selectedItem.Char_Nigg}");
+                UpdateSkillLists();
+            }
+        }
+
+        private void UpdateSkillLists()
+        {
+            GoodSkillList.Text = PositiveSkillsBuilder.ToString();
+            BadSkillList.Text = NiggativeSkillsBuilder.ToString();
+            if (Int32.Parse(PointScore.Text) >= 0)
+            {
+                PointScore.Foreground = Brushes.Green;
+            }
+            else
+            {
+                PointScore.Foreground = Brushes.Crimson;
+            }
+        }
+
+        private void Niggative_Check_Unchecked(object sender, RoutedEventArgs e)
+        {
+            if ((sender as CheckBox)?.DataContext is Data.Niggative selectedItem)
+            {
+                int score = Int32.Parse(PointScore.Text);
+                score = score - selectedItem.Point_Nigg;
+                PointScore.Text = score.ToString();
+
+                var skillString = $"{selectedItem.Char_Nigg}" + Environment.NewLine;
+                NiggativeSkillsBuilder.Replace(skillString, string.Empty);
+                UpdateSkillLists();
+            }
+        }
+
+        private void Positive_Check_Unchecked(object sender, RoutedEventArgs e)
+        {
+            if ((sender as CheckBox)?.DataContext is Data.Positive selectedItem)
+            {
+                int score = Int32.Parse(PointScore.Text);
+                score = score + selectedItem.Point_Pos;
+                PointScore.Text = score.ToString();
+
+                var skillString = $"{selectedItem.Char_Pos}" + Environment.NewLine;
+                PositiveSkillsBuilder.Replace(skillString, string.Empty);
+                UpdateSkillLists();
+            }
         }
     }
 }
