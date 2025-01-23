@@ -1,0 +1,36 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Well Max\\Desktop\\DnD_Calc\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{8A18F66A-67CB-4201-A693-9E77F875513F}|DnD_calc\\DnD_calc.csproj|c:\\users\\well max\\desktop\\dnd_calc\\dnd_calc\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{8A18F66A-67CB-4201-A693-9E77F875513F}|DnD_calc\\DnD_calc.csproj|solutionrelative:dnd_calc\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "MainWindow.xaml",
+              "DocumentMoniker": "C:\\Users\\Well Max\\Desktop\\DnD_Calc\\DnD_calc\\MainWindow.xaml",
+              "RelativeDocumentMoniker": "DnD_calc\\MainWindow.xaml",
+              "ToolTip": "C:\\Users\\Well Max\\Desktop\\DnD_Calc\\DnD_calc\\MainWindow.xaml",
+              "RelativeToolTip": "DnD_calc\\MainWindow.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-01-23T09:03:18.025Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
