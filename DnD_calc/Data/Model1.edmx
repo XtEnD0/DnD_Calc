@@ -12,6 +12,7 @@
           <Property Name="ID" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
           <Property Name="Char_Nigg" Type="nvarchar" MaxLength="100" Nullable="false" />
           <Property Name="Point_Nigg" Type="int" Nullable="false" />
+          <Property Name="Desc_Nigg" Type="nvarchar" MaxLength="200" />
         </EntityType>
         <EntityType Name="Positive">
           <Key>
@@ -20,6 +21,7 @@
           <Property Name="ID" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
           <Property Name="Char_Pos" Type="nvarchar" MaxLength="100" Nullable="false" />
           <Property Name="Point_Pos" Type="int" Nullable="false" />
+          <Property Name="Desc_Pos" Type="nvarchar" MaxLength="200" />
         </EntityType>
         <EntityType Name="sysdiagrams">
           <Key>
@@ -48,6 +50,7 @@
           <Property Name="ID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
           <Property Name="Char_Nigg" Type="String" MaxLength="100" FixedLength="false" Unicode="true" Nullable="false" />
           <Property Name="Point_Nigg" Type="Int32" Nullable="false" />
+          <Property Name="Desc_Nigg" Type="String" MaxLength="200" FixedLength="false" Unicode="true" />
         </EntityType>
         <EntityType Name="Positive">
           <Key>
@@ -56,6 +59,7 @@
           <Property Name="ID" Type="Int32" Nullable="false" annotation:StoreGeneratedPattern="Identity" />
           <Property Name="Char_Pos" Type="String" MaxLength="100" FixedLength="false" Unicode="true" Nullable="false" />
           <Property Name="Point_Pos" Type="Int32" Nullable="false" />
+          <Property Name="Desc_Pos" Type="String" MaxLength="200" FixedLength="false" Unicode="true" />
         </EntityType>
         <EntityType Name="sysdiagrams">
           <Key>
@@ -84,6 +88,7 @@
                 <ScalarProperty Name="ID" ColumnName="ID" />
                 <ScalarProperty Name="Char_Nigg" ColumnName="Char_Nigg" />
                 <ScalarProperty Name="Point_Nigg" ColumnName="Point_Nigg" />
+                <ScalarProperty Name="Desc_Nigg" ColumnName="Desc_Nigg" />
               </MappingFragment>
             </EntityTypeMapping>
           </EntitySetMapping>
@@ -93,6 +98,7 @@
                 <ScalarProperty Name="ID" ColumnName="ID" />
                 <ScalarProperty Name="Char_Pos" ColumnName="Char_Pos" />
                 <ScalarProperty Name="Point_Pos" ColumnName="Point_Pos" />
+                <ScalarProperty Name="Desc_Pos" ColumnName="Desc_Pos" />
               </MappingFragment>
             </EntityTypeMapping>
           </EntitySetMapping>

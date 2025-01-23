@@ -101,7 +101,7 @@ namespace DnD_calc
         {
             if ((sender as CheckBox)?.DataContext is Data.Positive selectedItem)
             {
-                DescriptionBox.Text = selectedItem.Char_Pos;
+                DescriptionBox.Text = selectedItem.Desc_Pos;
             }
         }
 
@@ -109,7 +109,7 @@ namespace DnD_calc
         {
             if ((sender as CheckBox)?.DataContext is Data.Niggative selectedItem)
             {
-                DescriptionBox.Text = selectedItem.Char_Nigg;
+                DescriptionBox.Text = selectedItem.Desc_Nigg;
             }
         }
     }

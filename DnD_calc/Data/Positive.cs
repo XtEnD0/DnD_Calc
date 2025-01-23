@@ -17,5 +17,6 @@ namespace DnD_calc.Data
         public int ID { get; set; }
         public string Char_Pos { get; set; }
         public int Point_Pos { get; set; }
+        public string Desc_Pos { get; set; }
     }
 }

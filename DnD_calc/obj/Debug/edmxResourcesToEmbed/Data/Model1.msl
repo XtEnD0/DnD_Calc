@@ -7,6 +7,7 @@
           <ScalarProperty Name="ID" ColumnName="ID" />
           <ScalarProperty Name="Char_Nigg" ColumnName="Char_Nigg" />
           <ScalarProperty Name="Point_Nigg" ColumnName="Point_Nigg" />
+          <ScalarProperty Name="Desc_Nigg" ColumnName="Desc_Nigg" />
         </MappingFragment>
       </EntityTypeMapping>
     </EntitySetMapping>
@@ -16,6 +17,7 @@
           <ScalarProperty Name="ID" ColumnName="ID" />
           <ScalarProperty Name="Char_Pos" ColumnName="Char_Pos" />
           <ScalarProperty Name="Point_Pos" ColumnName="Point_Pos" />
+          <ScalarProperty Name="Desc_Pos" ColumnName="Desc_Pos" />
         </MappingFragment>
       </EntityTypeMapping>
     </EntitySetMapping>
