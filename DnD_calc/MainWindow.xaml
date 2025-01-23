@@ -4,9 +4,46 @@
         xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:DnD_calc"
-        mc:Ignorable="d"
-        Title="MainWindow" Height="450" Width="800">
+        mc:Ignorable="d" WindowStartupLocation="CenterScreen"
+        Title="MainWindow" Height="650" Width="700">
     <Grid>
-        
+        <Grid.RowDefinitions>
+            <RowDefinition Height="70"></RowDefinition>
+            <RowDefinition></RowDefinition>
+        </Grid.RowDefinitions>
+
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition></ColumnDefinition>
+            <ColumnDefinition Width="200"></ColumnDefinition>
+            <ColumnDefinition Width="200"></ColumnDefinition>
+            <ColumnDefinition></ColumnDefinition>
+        </Grid.ColumnDefinitions>
+        <StackPanel Grid.Row="0" Grid.Column="1" Grid.ColumnSpan="2"
+                    VerticalAlignment="Center" HorizontalAlignment="Center">
+        <Label Content="ОЧКИ" ></Label>
+        <TextBox Text="0" Width="40" Height="25" IsEnabled="False"
+                 HorizontalContentAlignment="Center" VerticalContentAlignment="Center"
+            ></TextBox>
+            
+        </StackPanel>
+        <StackPanel Grid.Row="1" Grid.Column="1"
+                    VerticalAlignment="Top" HorizontalAlignment="Center">
+            <TextBlock Text="ПОЛОЖИТЕЛЬНЫЕ" Foreground="Green"></TextBlock>
+        </StackPanel>
+
+
+        <StackPanel Grid.Row="1" Grid.Column="2"
+                    VerticalAlignment="Top" HorizontalAlignment="Center">
+            <TextBlock Text="ОТРИЦАТЕЛЬНЫЕ" Foreground="crimson"></TextBlock>
+        </StackPanel>
+        <StackPanel Grid.Row="1" Grid.Column="3" VerticalAlignment="Top" HorizontalAlignment="Left">
+            
+        <TextBlock x:Name="GoodSkillList" Text="Положительные" Foreground="Green"
+                 Height="Auto"></TextBlock>
+        <TextBlock x:Name="BadSkillList" Text="Отрицательные" Foreground="Crimson"
+                 Height="Auto"></TextBlock>
+            
+        </StackPanel>
+
     </Grid>
 </Window>
