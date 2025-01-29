@@ -5,7 +5,7 @@ VisualStudioVersion = 16.0.34301.259
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DnD_calc", "DnD_calc\DnD_calc.csproj", "{8A18F66A-67CB-4201-A693-9E77F875513F}"
 EndProject
-Project("{54435603-DBB4-11D2-8724-00A0C9A8B90C}") = "DnD_Calc_Setup", "DnD_Calc_Setup\DnD_Calc_Setup.vdproj", "{D63A92EA-E017-4368-9326-E20A52E5435C}"
+Project("{54435603-DBB4-11D2-8724-00A0C9A8B90C}") = "DnDCalcSetup", "DnDCalcSetup\DnDCalcSetup.vdproj", "{BF7ED93E-CC9D-4C13-98D3-9FF401D0C5E4}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -17,8 +17,8 @@ Global
 		{8A18F66A-67CB-4201-A693-9E77F875513F}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{8A18F66A-67CB-4201-A693-9E77F875513F}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{8A18F66A-67CB-4201-A693-9E77F875513F}.Release|Any CPU.Build.0 = Release|Any CPU
-		{D63A92EA-E017-4368-9326-E20A52E5435C}.Debug|Any CPU.ActiveCfg = Debug
-		{D63A92EA-E017-4368-9326-E20A52E5435C}.Release|Any CPU.ActiveCfg = Release
+		{BF7ED93E-CC9D-4C13-98D3-9FF401D0C5E4}.Debug|Any CPU.ActiveCfg = Debug
+		{BF7ED93E-CC9D-4C13-98D3-9FF401D0C5E4}.Release|Any CPU.ActiveCfg = Release
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
