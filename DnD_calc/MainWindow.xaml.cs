@@ -1,8 +1,10 @@
-﻿using Newtonsoft.Json;
+﻿using DnD_calc.Classes;
+using Newtonsoft.Json;
 using System;
 using System.Collections.Generic;
 using System.IO;
 using System.Linq;
+using System.Security.Cryptography.X509Certificates;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows;
@@ -22,117 +24,163 @@ namespace DnD_calc
     /// </summary>
     public partial class MainWindow : Window
     {
-        StringBuilder PositiveSkillsBuilder = new StringBuilder();
-        StringBuilder NiggativeSkillsBuilder = new StringBuilder();
+        //StringBuilder PositiveSkillsBuilder = new StringBuilder();
+        //StringBuilder NiggativeSkillsBuilder = new StringBuilder();
 
-        public Classes.TraitsData localdata;
+        //public Classes.TraitsData localdata;
         public MainWindow()
         {
             InitializeComponent();
+            Classes.Manager.MainFrame = MainFrame;
+            
+            Classes.Manager.MainFrame.Navigate(Pager.PointPage);
+            CharButton.IsEnabled = false;
+
+
+
+
+
             //PositiveListView.ItemsSource = Data.DnD_DBEntities.GetContext().Positive.ToList();
             //NiggativeListView.ItemsSource = Data.DnD_DBEntities.GetContext().Niggative.ToList();
 
 
-            string filePath = Directory.GetCurrentDirectory() + @"\dnd_data.json";
-            if (File.Exists(filePath))
-            {
-                string json = File.ReadAllText(filePath);
-                localdata = JsonConvert.DeserializeObject<Classes.TraitsData>(json);
-                PositiveListView.ItemsSource = localdata.Positive.ToList();
-                NiggativeListView.ItemsSource = localdata.Niggative.ToList();
+            //string filePath = Directory.GetCurrentDirectory() + @"\dnd_data.json";
+            //if (File.Exists(filePath))
+            //{
+            //    string json = File.ReadAllText(filePath);
+            //    localdata = JsonConvert.DeserializeObject<Classes.TraitsData>(json);
+            //    PositiveListView.ItemsSource = localdata.Positive.ToList();
+            //    NiggativeListView.ItemsSource = localdata.Niggative.ToList();
 
-            }
-            else
-            {
-                MessageBox.Show("База Данных не найдена!", "Ошибка!", MessageBoxButton.OK, MessageBoxImage.Error);
-                
-            }
+            //}
+            //else
+            //{
+            //    MessageBox.Show("База Данных не найдена!", "Ошибка!", MessageBoxButton.OK, MessageBoxImage.Error);
+
+            //}
 
         }
 
-        private void Positive_Check_Checked(object sender, RoutedEventArgs e)
+        private void CharButton_Click(object sender, RoutedEventArgs e)
         {
-            if ((sender as CheckBox)?.DataContext is Classes.PositiveTrait selectedItem)
-            {
-                int score = Int32.Parse(PointScore.Text);
-                score = score - selectedItem.Point_Pos;
-                PointScore.Text = score.ToString();
+            Classes.Manager.MainFrame.Navigate(Pager.PointPage);
+            CharButton.IsEnabled = false;
+            PersonaButton.IsEnabled = true;
+            EnemyButton.IsEnabled = true;
+            LATER.IsEnabled = true;
 
-                PositiveSkillsBuilder.AppendLine($"{selectedItem.Char_Pos}");
-                UpdateSkillLists();
-            }
         }
 
-        private void Niggative_Check_Checked(object sender, RoutedEventArgs e)
+        private void PersonaButton_Click(object sender, RoutedEventArgs e)
         {
-            if ((sender as CheckBox)?.DataContext is Classes.NegativeTrait selectedItem)
-            {
-                int score = Int32.Parse(PointScore.Text);
-                score = score + selectedItem.Point_Nigg;
-                PointScore.Text = score.ToString();
-
-                NiggativeSkillsBuilder.AppendLine($"{selectedItem.Char_Nigg}");
-                UpdateSkillLists();
-            }
+            Classes.Manager.MainFrame.Navigate(Pager.PersonaPage);
+            CharButton.IsEnabled = true;
+            PersonaButton.IsEnabled = false;
+            EnemyButton.IsEnabled = true;
+            LATER.IsEnabled = true;
         }
 
-        private void UpdateSkillLists()
+        private void EnemyButton_Click(object sender, RoutedEventArgs e)
         {
-            GoodSkillList.Text = PositiveSkillsBuilder.ToString();
-            BadSkillList.Text = NiggativeSkillsBuilder.ToString();
-            if (Int32.Parse(PointScore.Text) >= 0)
-            {
-                PointScore.Foreground = Brushes.Green;
-            }
-            else
-            {
-                PointScore.Foreground = Brushes.Crimson;
-            }
+            Classes.Manager.MainFrame.Navigate(Pager.EnemyPage);
+            CharButton.IsEnabled = true;
+            PersonaButton.IsEnabled = true;
+            EnemyButton.IsEnabled = false;
+            LATER.IsEnabled = true;
         }
 
-        private void Niggative_Check_Unchecked(object sender, RoutedEventArgs e)
+        private void LATER_Click(object sender, RoutedEventArgs e)
         {
-            if ((sender as CheckBox)?.DataContext is Classes.NegativeTrait selectedItem)
-            {
-                int score = Int32.Parse(PointScore.Text);
-                score = score - selectedItem.Point_Nigg;
-                PointScore.Text = score.ToString();
-
-                var skillString = $"{selectedItem.Char_Nigg}" + Environment.NewLine;
-                NiggativeSkillsBuilder.Replace(skillString, string.Empty);
-                UpdateSkillLists();
-            }
+            Classes.Manager.MainFrame.Navigate(Pager.LATERPage);
+            CharButton.IsEnabled = true;
+            PersonaButton.IsEnabled = true;
+            EnemyButton.IsEnabled = true;
+            LATER.IsEnabled = false;
         }
 
-        private void Positive_Check_Unchecked(object sender, RoutedEventArgs e)
-        {
-            if ((sender as CheckBox)?.DataContext is Classes.PositiveTrait selectedItem)
-            {
-                int score = Int32.Parse(PointScore.Text);
-                score = score + selectedItem.Point_Pos;
-                PointScore.Text = score.ToString();
+        //private void Positive_Check_Checked(object sender, RoutedEventArgs e)
+        //{
+        //    if ((sender as CheckBox)?.DataContext is Classes.PositiveTrait selectedItem)
+        //    {
+        //        int score = Int32.Parse(PointScore.Text);
+        //        score = score - selectedItem.Point_Pos;
+        //        PointScore.Text = score.ToString();
 
-                var skillString = $"{selectedItem.Char_Pos}" + Environment.NewLine;
-                PositiveSkillsBuilder.Replace(skillString, string.Empty);
-                UpdateSkillLists();
-            }
-        }
+        //        PositiveSkillsBuilder.AppendLine($"{selectedItem.Char_Pos}");
+        //        UpdateSkillLists();
+        //    }
+        //}
 
-        private void Positive_Check_MouseEnter(object sender, MouseEventArgs e)
-        {
-            if ((sender as CheckBox)?.DataContext is Classes.PositiveTrait selectedItem)
-            {
-                DescriptionBox.Text = selectedItem.Desc_Pos;
-            }
-        }
+        //private void Niggative_Check_Checked(object sender, RoutedEventArgs e)
+        //{
+        //    if ((sender as CheckBox)?.DataContext is Classes.NegativeTrait selectedItem)
+        //    {
+        //        int score = Int32.Parse(PointScore.Text);
+        //        score = score + selectedItem.Point_Nigg;
+        //        PointScore.Text = score.ToString();
 
-        private void Niggative_Check_MouseEnter(object sender, MouseEventArgs e)
-        {
-            if ((sender as CheckBox)?.DataContext is Classes.NegativeTrait selectedItem)
-            {
-                DescriptionBox.Text = selectedItem.Desc_Nigg;
-            }
-        }
+        //        NiggativeSkillsBuilder.AppendLine($"{selectedItem.Char_Nigg}");
+        //        UpdateSkillLists();
+        //    }
+        //}
+
+        //private void UpdateSkillLists()
+        //{
+        //    GoodSkillList.Text = PositiveSkillsBuilder.ToString();
+        //    BadSkillList.Text = NiggativeSkillsBuilder.ToString();
+        //    if (Int32.Parse(PointScore.Text) >= 0)
+        //    {
+        //        PointScore.Foreground = Brushes.Green;
+        //    }
+        //    else
+        //    {
+        //        PointScore.Foreground = Brushes.Crimson;
+        //    }
+        //}
+
+        //private void Niggative_Check_Unchecked(object sender, RoutedEventArgs e)
+        //{
+        //    if ((sender as CheckBox)?.DataContext is Classes.NegativeTrait selectedItem)
+        //    {
+        //        int score = Int32.Parse(PointScore.Text);
+        //        score = score - selectedItem.Point_Nigg;
+        //        PointScore.Text = score.ToString();
+
+        //        var skillString = $"{selectedItem.Char_Nigg}" + Environment.NewLine;
+        //        NiggativeSkillsBuilder.Replace(skillString, string.Empty);
+        //        UpdateSkillLists();
+        //    }
+        //}
+
+        //private void Positive_Check_Unchecked(object sender, RoutedEventArgs e)
+        //{
+        //    if ((sender as CheckBox)?.DataContext is Classes.PositiveTrait selectedItem)
+        //    {
+        //        int score = Int32.Parse(PointScore.Text);
+        //        score = score + selectedItem.Point_Pos;
+        //        PointScore.Text = score.ToString();
+
+        //        var skillString = $"{selectedItem.Char_Pos}" + Environment.NewLine;
+        //        PositiveSkillsBuilder.Replace(skillString, string.Empty);
+        //        UpdateSkillLists();
+        //    }
+        //}
+
+        //private void Positive_Check_MouseEnter(object sender, MouseEventArgs e)
+        //{
+        //    if ((sender as CheckBox)?.DataContext is Classes.PositiveTrait selectedItem)
+        //    {
+        //        DescriptionBox.Text = selectedItem.Desc_Pos;
+        //    }
+        //}
+
+        //private void Niggative_Check_MouseEnter(object sender, MouseEventArgs e)
+        //{
+        //    if ((sender as CheckBox)?.DataContext is Classes.NegativeTrait selectedItem)
+        //    {
+        //        DescriptionBox.Text = selectedItem.Desc_Nigg;
+        //    }
+        //}
     }
 }
 

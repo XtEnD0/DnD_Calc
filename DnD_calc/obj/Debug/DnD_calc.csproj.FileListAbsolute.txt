@@ -82,3 +82,14 @@ C:\Users\ACadmin\Desktop\DnD_Calc\DnD_calc\obj\Debug\DnD_calc.csproj.CoreCompile
 C:\Users\ACadmin\Desktop\DnD_Calc\DnD_calc\obj\Debug\DnD_calc.csproj.CopyComplete
 C:\Users\ACadmin\Desktop\DnD_Calc\DnD_calc\obj\Debug\DnD_calc.exe
 C:\Users\ACadmin\Desktop\DnD_Calc\DnD_calc\obj\Debug\DnD_calc.pdb
+C:\Users\Well Max\Desktop\DnD_Calc\DnD_calc\bin\Debug\Newtonsoft.Json.dll
+C:\Users\Well Max\Desktop\DnD_Calc\DnD_calc\bin\Debug\Newtonsoft.Json.xml
+C:\Users\Well Max\Desktop\DnD_Calc\DnD_calc\bin\Debug\ru\EntityFramework.SqlServer.resources.dll
+C:\Users\Well Max\Desktop\DnD_Calc\DnD_calc\obj\Debug\Pages\PointPage.g.cs
+C:\Users\Well Max\Desktop\DnD_Calc\DnD_calc\obj\Debug\Pages\PointPage.baml
+C:\Users\Well Max\Desktop\DnD_Calc\DnD_calc\obj\Debug\Pages\EnemyPage.g.cs
+C:\Users\Well Max\Desktop\DnD_Calc\DnD_calc\obj\Debug\Pages\LATERPage.g.cs
+C:\Users\Well Max\Desktop\DnD_Calc\DnD_calc\obj\Debug\Pages\PersonaPage.g.cs
+C:\Users\Well Max\Desktop\DnD_Calc\DnD_calc\obj\Debug\Pages\EnemyPage.baml
+C:\Users\Well Max\Desktop\DnD_Calc\DnD_calc\obj\Debug\Pages\LATERPage.baml
+C:\Users\Well Max\Desktop\DnD_Calc\DnD_calc\obj\Debug\Pages\PersonaPage.baml

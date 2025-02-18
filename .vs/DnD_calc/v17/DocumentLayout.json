@@ -3,20 +3,48 @@
   "WorkspaceRootPath": "C:\\Users\\Well Max\\Desktop\\DnD_Calc\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{8A18F66A-67CB-4201-A693-9E77F875513F}|DnD_calc\\DnD_calc.csproj|C:\\Users\\Well Max\\Desktop\\DnD_Calc\\dnd_calc\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8A18F66A-67CB-4201-A693-9E77F875513F}|DnD_calc\\DnD_calc.csproj|solutionrelative:dnd_calc\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8A18F66A-67CB-4201-A693-9E77F875513F}|DnD_calc\\DnD_calc.csproj|C:\\Users\\Well Max\\Desktop\\DnD_Calc\\dnd_calc\\classes\\manager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8A18F66A-67CB-4201-A693-9E77F875513F}|DnD_calc\\DnD_calc.csproj|solutionrelative:dnd_calc\\classes\\manager.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8A18F66A-67CB-4201-A693-9E77F875513F}|DnD_calc\\DnD_calc.csproj|c:\\users\\well max\\desktop\\dnd_calc\\dnd_calc\\pages\\pointpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{8A18F66A-67CB-4201-A693-9E77F875513F}|DnD_calc\\DnD_calc.csproj|solutionrelative:dnd_calc\\pages\\pointpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8A18F66A-67CB-4201-A693-9E77F875513F}|DnD_calc\\DnD_calc.csproj|c:\\users\\well max\\desktop\\dnd_calc\\dnd_calc\\pages\\enemypage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{8A18F66A-67CB-4201-A693-9E77F875513F}|DnD_calc\\DnD_calc.csproj|solutionrelative:dnd_calc\\pages\\enemypage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8A18F66A-67CB-4201-A693-9E77F875513F}|DnD_calc\\DnD_calc.csproj|c:\\users\\well max\\desktop\\dnd_calc\\dnd_calc\\pages\\laterpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{8A18F66A-67CB-4201-A693-9E77F875513F}|DnD_calc\\DnD_calc.csproj|solutionrelative:dnd_calc\\pages\\laterpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8A18F66A-67CB-4201-A693-9E77F875513F}|DnD_calc\\DnD_calc.csproj|c:\\users\\well max\\desktop\\dnd_calc\\dnd_calc\\pages\\personapage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{8A18F66A-67CB-4201-A693-9E77F875513F}|DnD_calc\\DnD_calc.csproj|solutionrelative:dnd_calc\\pages\\personapage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{8A18F66A-67CB-4201-A693-9E77F875513F}|DnD_calc\\DnD_calc.csproj|C:\\Users\\Well Max\\Desktop\\DnD_Calc\\dnd_calc\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
       "RelativeMoniker": "D:0:0:{8A18F66A-67CB-4201-A693-9E77F875513F}|DnD_calc\\DnD_calc.csproj|solutionrelative:dnd_calc\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{8A18F66A-67CB-4201-A693-9E77F875513F}|DnD_calc\\DnD_calc.csproj|c:\\users\\well max\\desktop\\dnd_calc\\dnd_calc\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{8A18F66A-67CB-4201-A693-9E77F875513F}|DnD_calc\\DnD_calc.csproj|solutionrelative:dnd_calc\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{8A18F66A-67CB-4201-A693-9E77F875513F}|DnD_calc\\DnD_calc.csproj|C:\\Users\\Well Max\\Desktop\\DnD_Calc\\dnd_calc\\classes\\traitsdata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8A18F66A-67CB-4201-A693-9E77F875513F}|DnD_calc\\DnD_calc.csproj|solutionrelative:dnd_calc\\classes\\traitsdata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8A18F66A-67CB-4201-A693-9E77F875513F}|DnD_calc\\DnD_calc.csproj|C:\\Users\\Well Max\\Desktop\\DnD_Calc\\dnd_calc\\classes\\positivetrait.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{8A18F66A-67CB-4201-A693-9E77F875513F}|DnD_calc\\DnD_calc.csproj|solutionrelative:dnd_calc\\classes\\positivetrait.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8A18F66A-67CB-4201-A693-9E77F875513F}|DnD_calc\\DnD_calc.csproj|C:\\Users\\Well Max\\Desktop\\DnD_Calc\\dnd_calc\\pages\\pointpage.xaml.cs||{8B382828-6202-11D1-8870-0000F87579D2}|",
+      "RelativeMoniker": "D:0:0:{8A18F66A-67CB-4201-A693-9E77F875513F}|DnD_calc\\DnD_calc.csproj|solutionrelative:dnd_calc\\pages\\pointpage.xaml.cs||{8B382828-6202-11D1-8870-0000F87579D2}|"
     },
     {
       "AbsoluteMoniker": "D:0:0:{8A18F66A-67CB-4201-A693-9E77F875513F}|DnD_calc\\DnD_calc.csproj|C:\\Users\\Well Max\\Desktop\\DnD_Calc\\dnd_calc\\data\\model1.context.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{8A18F66A-67CB-4201-A693-9E77F875513F}|DnD_calc\\DnD_calc.csproj|solutionrelative:dnd_calc\\data\\model1.context.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{8A18F66A-67CB-4201-A693-9E77F875513F}|DnD_calc\\DnD_calc.csproj|C:\\Users\\Well Max\\Desktop\\DnD_Calc\\dnd_calc\\data\\model1.edmx||{C99AEA30-8E36-4515-B76F-496F5A48A6AA}|",
-      "RelativeMoniker": "D:0:0:{8A18F66A-67CB-4201-A693-9E77F875513F}|DnD_calc\\DnD_calc.csproj|solutionrelative:dnd_calc\\data\\model1.edmx||{C99AEA30-8E36-4515-B76F-496F5A48A6AA}|"
     }
   ],
   "DocumentGroupContainers": [
@@ -30,18 +58,33 @@
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "Model1.edmx [Diagram1]",
-              "DocumentMoniker": "C:\\Users\\Well Max\\Desktop\\DnD_Calc\\DnD_calc\\Data\\Model1.edmx",
-              "RelativeDocumentMoniker": "DnD_calc\\Data\\Model1.edmx",
-              "ToolTip": "C:\\Users\\Well Max\\Desktop\\DnD_Calc\\DnD_calc\\Data\\Model1.edmx [Diagram1]",
-              "RelativeToolTip": "DnD_calc\\Data\\Model1.edmx [Diagram1]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001116|",
-              "WhenOpened": "2025-01-23T09:24:50.414Z"
+              "DocumentIndex": 1,
+              "Title": "Manager.cs",
+              "DocumentMoniker": "C:\\Users\\Well Max\\Desktop\\DnD_Calc\\DnD_calc\\Classes\\Manager.cs",
+              "RelativeDocumentMoniker": "DnD_calc\\Classes\\Manager.cs",
+              "ToolTip": "C:\\Users\\Well Max\\Desktop\\DnD_Calc\\DnD_calc\\Classes\\Manager.cs",
+              "RelativeToolTip": "DnD_calc\\Classes\\Manager.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAABLAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-31T09:17:30.429Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "MainWindow.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\Well Max\\Desktop\\DnD_Calc\\DnD_calc\\MainWindow.xaml.cs",
+              "RelativeDocumentMoniker": "DnD_calc\\MainWindow.xaml.cs",
+              "ToolTip": "C:\\Users\\Well Max\\Desktop\\DnD_Calc\\DnD_calc\\MainWindow.xaml.cs",
+              "RelativeToolTip": "DnD_calc\\MainWindow.xaml.cs",
+              "ViewState": "AgIAAE4AAAAAAAAAAAAAwF8AAAArAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-23T09:31:08.359Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
               "Title": "MainWindow.xaml",
               "DocumentMoniker": "C:\\Users\\Well Max\\Desktop\\DnD_Calc\\DnD_calc\\MainWindow.xaml",
               "RelativeDocumentMoniker": "DnD_calc\\MainWindow.xaml",
@@ -53,20 +96,91 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "MainWindow.xaml.cs",
-              "DocumentMoniker": "C:\\Users\\Well Max\\Desktop\\DnD_Calc\\DnD_calc\\MainWindow.xaml.cs",
-              "RelativeDocumentMoniker": "DnD_calc\\MainWindow.xaml.cs",
-              "ToolTip": "C:\\Users\\Well Max\\Desktop\\DnD_Calc\\DnD_calc\\MainWindow.xaml.cs",
-              "RelativeToolTip": "DnD_calc\\MainWindow.xaml.cs",
-              "ViewState": "AgIAABIAAAAAAAAAAAAkwD8AAAA2AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-01-23T09:31:08.359Z",
+              "DocumentIndex": 2,
+              "Title": "PointPage.xaml",
+              "DocumentMoniker": "C:\\Users\\Well Max\\Desktop\\DnD_Calc\\DnD_calc\\Pages\\PointPage.xaml",
+              "RelativeDocumentMoniker": "DnD_calc\\Pages\\PointPage.xaml",
+              "ToolTip": "C:\\Users\\Well Max\\Desktop\\DnD_Calc\\DnD_calc\\Pages\\PointPage.xaml",
+              "RelativeToolTip": "DnD_calc\\Pages\\PointPage.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-01-31T09:11:18.67Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 4,
+              "Title": "LATERPage.xaml",
+              "DocumentMoniker": "C:\\Users\\Well Max\\Desktop\\DnD_Calc\\DnD_calc\\Pages\\LATERPage.xaml",
+              "RelativeDocumentMoniker": "DnD_calc\\Pages\\LATERPage.xaml",
+              "ToolTip": "C:\\Users\\Well Max\\Desktop\\DnD_Calc\\DnD_calc\\Pages\\LATERPage.xaml",
+              "RelativeToolTip": "DnD_calc\\Pages\\LATERPage.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-02-18T21:41:24.475Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "PersonaPage.xaml",
+              "DocumentMoniker": "C:\\Users\\Well Max\\Desktop\\DnD_Calc\\DnD_calc\\Pages\\PersonaPage.xaml",
+              "RelativeDocumentMoniker": "DnD_calc\\Pages\\PersonaPage.xaml",
+              "ToolTip": "C:\\Users\\Well Max\\Desktop\\DnD_Calc\\DnD_calc\\Pages\\PersonaPage.xaml",
+              "RelativeToolTip": "DnD_calc\\Pages\\PersonaPage.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-02-18T21:41:58.568Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "EnemyPage.xaml",
+              "DocumentMoniker": "C:\\Users\\Well Max\\Desktop\\DnD_Calc\\DnD_calc\\Pages\\EnemyPage.xaml",
+              "RelativeDocumentMoniker": "DnD_calc\\Pages\\EnemyPage.xaml",
+              "ToolTip": "C:\\Users\\Well Max\\Desktop\\DnD_Calc\\DnD_calc\\Pages\\EnemyPage.xaml",
+              "RelativeToolTip": "DnD_calc\\Pages\\EnemyPage.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-02-18T21:43:23.2Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "PositiveTrait.cs",
+              "DocumentMoniker": "C:\\Users\\Well Max\\Desktop\\DnD_Calc\\DnD_calc\\Classes\\PositiveTrait.cs",
+              "RelativeDocumentMoniker": "DnD_calc\\Classes\\PositiveTrait.cs",
+              "ToolTip": "C:\\Users\\Well Max\\Desktop\\DnD_Calc\\DnD_calc\\Classes\\PositiveTrait.cs",
+              "RelativeToolTip": "DnD_calc\\Classes\\PositiveTrait.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-18T09:06:53.737Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "TraitsData.cs",
+              "DocumentMoniker": "C:\\Users\\Well Max\\Desktop\\DnD_Calc\\DnD_calc\\Classes\\TraitsData.cs",
+              "RelativeDocumentMoniker": "DnD_calc\\Classes\\TraitsData.cs",
+              "ToolTip": "C:\\Users\\Well Max\\Desktop\\DnD_Calc\\DnD_calc\\Classes\\TraitsData.cs",
+              "RelativeToolTip": "DnD_calc\\Classes\\TraitsData.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-18T09:07:00.74Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "PointPage.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\Well Max\\Desktop\\DnD_Calc\\DnD_calc\\Pages\\PointPage.xaml.cs",
+              "RelativeDocumentMoniker": "DnD_calc\\Pages\\PointPage.xaml.cs",
+              "ToolTip": "C:\\Users\\Well Max\\Desktop\\DnD_Calc\\DnD_calc\\Pages\\PointPage.xaml.cs",
+              "RelativeToolTip": "DnD_calc\\Pages\\PointPage.xaml.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAAAHkAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-01-31T09:19:44.97Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
               "Title": "Model1.Context.cs",
               "DocumentMoniker": "C:\\Users\\Well Max\\Desktop\\DnD_Calc\\DnD_calc\\Data\\Model1.Context.cs",
               "RelativeDocumentMoniker": "DnD_calc\\Data\\Model1.Context.cs",

@@ -1,0 +1,93 @@
+﻿<Page x:Class="DnD_calc.Pages.PointPage"
+      xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+      xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+      xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+      xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
+      xmlns:local="clr-namespace:DnD_calc.Pages"
+      mc:Ignorable="d" 
+      d:DesignHeight="650" d:DesignWidth="800"
+      Title="Характеристики">
+
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="70"></RowDefinition>
+            <RowDefinition></RowDefinition>
+        </Grid.RowDefinitions>
+
+
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition></ColumnDefinition>
+            <ColumnDefinition Width="250"></ColumnDefinition>
+            <ColumnDefinition Width="250"></ColumnDefinition>
+            <ColumnDefinition></ColumnDefinition>
+        </Grid.ColumnDefinitions>
+
+        <TextBlock x:Name="DescriptionBox" Grid.Row="1" Grid.Column="0" Text="Здесь будет описание"
+               VerticalAlignment="Top" HorizontalAlignment="Center" TextWrapping="Wrap"></TextBlock>
+
+        <StackPanel Grid.Row="0" Grid.Column="1" Grid.ColumnSpan="2"
+                VerticalAlignment="Center" HorizontalAlignment="Center">
+            <Label Content="ОЧКИ" ></Label>
+            <TextBox Text="0" Width="40" Height="25" IsEnabled="False" x:Name="PointScore"
+             HorizontalContentAlignment="Center" VerticalContentAlignment="Center"
+        ></TextBox>
+
+        </StackPanel>
+        <StackPanel Grid.Row="1" Grid.Column="1"
+                VerticalAlignment="Top" HorizontalAlignment="Center">
+            <TextBlock Text="ПОЛОЖИТЕЛЬНЫЕ" Foreground="Green" HorizontalAlignment="Center"></TextBlock>
+            <ListView x:Name="PositiveListView" Width="230"
+            HorizontalAlignment="Center" VerticalAlignment="Center">
+                <ListView.ItemTemplate>
+                    <DataTemplate>
+                        <Grid>
+                            <Grid.ColumnDefinitions>
+                                <ColumnDefinition Width="190"></ColumnDefinition>
+                                <ColumnDefinition Width="*"></ColumnDefinition>
+                            </Grid.ColumnDefinitions>
+                            <CheckBox x:Name="Positive_Check" Checked="Positive_Check_Checked" Grid.Column="0" MouseEnter="Positive_Check_MouseEnter"
+                        Content="{Binding Char_Pos, StringFormat={}{0}}"   Unchecked="Positive_Check_Unchecked"
+                             VerticalAlignment="Center" HorizontalAlignment="Left"></CheckBox>
+                            <TextBlock Grid.Column="1" HorizontalAlignment="Center"
+                            Text="{Binding Point_Pos, StringFormat={}-{0}}" Foreground="Crimson"></TextBlock>
+                        </Grid>
+                    </DataTemplate>
+                </ListView.ItemTemplate>
+            </ListView>
+        </StackPanel>
+
+
+        <StackPanel Grid.Row="1" Grid.Column="2"
+                VerticalAlignment="Top" HorizontalAlignment="Center">
+            <TextBlock Text="ОТРИЦАТЕЛЬНЫЕ" Foreground="crimson" HorizontalAlignment="Center"></TextBlock>
+            <ListView x:Name="NiggativeListView" Width="230"
+HorizontalAlignment="Center" VerticalAlignment="Center">
+                <ListView.ItemTemplate>
+                    <DataTemplate>
+                        <Grid>
+                            <Grid.ColumnDefinitions>
+                                <ColumnDefinition Width="190"></ColumnDefinition>
+                                <ColumnDefinition Width="*"></ColumnDefinition>
+                            </Grid.ColumnDefinitions>
+                            <CheckBox x:Name="Niggative_Check" Checked="Niggative_Check_Checked" Grid.Column="0"
+                                  MouseEnter="Niggative_Check_MouseEnter"
+                        Content="{Binding Char_Nigg, StringFormat={}{0}}" Unchecked="Niggative_Check_Unchecked"
+             VerticalAlignment="Center" HorizontalAlignment="Left"></CheckBox>
+                            <TextBlock Grid.Column="1" HorizontalAlignment="Center"
+ Text="{Binding Point_Nigg, StringFormat={}+{0}}" Foreground="Green"></TextBlock>
+                        </Grid>
+                    </DataTemplate>
+                </ListView.ItemTemplate>
+            </ListView>
+        </StackPanel>
+        <StackPanel Grid.Row="1" Grid.Column="3" VerticalAlignment="Top" HorizontalAlignment="Left">
+
+            <TextBlock x:Name="GoodSkillList" Foreground="Green"
+             Height="Auto"></TextBlock>
+            <TextBlock x:Name="BadSkillList" Foreground="Crimson"
+             Height="Auto"></TextBlock>
+
+        </StackPanel>
+
+    </Grid>
+</Page>
